@@ -9,6 +9,7 @@ public abstract class Person {
 		return oneRoundCard;
 	}
 	public abstract boolean hit_me(Table table);
+	
 	public int getTotalValue() {
 		int Ace_count = 0;
 		int total_value = 0;
